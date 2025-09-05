@@ -1,22 +1,37 @@
+# ia_connector.py
 import requests
+import json
 
 def preguntar_ia(prompt: str) -> str:
+    """
+    Envía un prompt a la IA local (Ollama/Mistral) y devuelve la respuesta.
+    Maneja errores de formato en las líneas recibidas.
+    """
     try:
         url = "http://localhost:11434/api/generate"
         payload = {
-            "model": "mistral",
+            "model": "mistral",  # 👈 Cambia este nombre si tu modelo es distinto
             "prompt": prompt
         }
         response = requests.post(url, json=payload, stream=True)
 
         respuesta = ""
         for line in response.iter_lines():
-            if line:
-                data = line.decode("utf-8")
-                import json
-                obj = json.loads(data)
-                if "response" in obj:
-                    respuesta += obj["response"]
+            if not line:
+                continue
+            try:
+                data = json.loads(line.decode("utf-8"))
+                print("[DEBUG] Línea recibida:", data)  # 👈 Para ver qué regresa Ollama
+
+                if "response" in data:
+                    respuesta += data["response"]
+
+            except Exception as e:
+                print(f"[DEBUG] Línea ignorada: {line} -> {e}")
+                continue
+
+        if not respuesta:
+            return "[ERROR] No se recibió respuesta del modelo. Revisa que el modelo esté cargado y tenga el nombre correcto."
 
         return respuesta.strip()
 
