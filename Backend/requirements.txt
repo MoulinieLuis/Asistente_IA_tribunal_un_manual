@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+faiss-cpu
+requests
+python-dotenv
+pymupdf
+
+fastapi
+uvicorn
+requests
+faiss-cpu
+sentence-transformers
+docling

@@ -1,0 +1,683 @@
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 1 de 14 
+VERSIÓN: 001 
+ 
+ 
+MANUAL DE SALA 
+ORDINARIA PONENCIA 
+INTERCONEXIÓN
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 2 de 14 
+VERSIÓN: 001 
+ 
+ÍNDICE 
+I. Objetivo general​
+3 
+II. DESAROLLO​
+4 
+Iniciar sesión​
+4 
+Cerrar sesión​
+5 
+Inicio​
+6 
+Firma digital de acuerdos​
+7 
+Bandeja mensajes CJF​
+9 
+Buscar un mensaje por número de juicio​
+10 
+Realizar una búsqueda de juicio a profundidad​
+10 
+Actualizar la bandeja de mensajes​
+11 
+III. Glosario de términos​
+12 
+IV. Control de cambios​
+14 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 3 de 14 
+VERSIÓN: 001 
+ 
+I.​ Objetivo general 
+El presente manual tiene como finalidad ofrecer a los usuarios del Sistema Digital de Juicios 
+una guía, precisa y de fácil acceso sobre la correcta utilización de las diversas funcionalidades 
+que integran la plataforma en los módulos correspondientes a Reportes Sala Ordinaria 
+Ponencia. 
+ 
+Su propósito es facilitar la comprensión y la operación adecuada del sistema en los módulos 
+correspondientes a Reportes Sala Ordinaria Ponencia para la consulta del cruce de 
+información para obtener los registros solicitados y otros procesos relacionados. De esta 
+manera, se promueve una consulta eficiente, organizada y transparente de la información 
+resguardada por el Tribunal de Justicia Administrativa de la Ciudad de México. 
+ 
+ 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 4 de 14 
+VERSIÓN: 001 
+ 
+II.​ DESAROLLO 
+Iniciar sesión 
+1. Accede al Sistema Digital de Juicios con el siguiente enlace: 
+https://sidj.tjacdmx.gob.mx/home 
+2. Ingresar el usuario y la contraseña, a continuación, dar clic en “Ingresar”. 
+ 
+ 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 5 de 14 
+VERSIÓN: 001 
+ 
+Cerrar sesión 
+1.​ En la pantalla principal haz clic en el siguiente ícono ubicado en la parte superior 
+derecha:  
+ 
+Se desplegará el siguiente menú: 
+ 
+2.​ Haz clic en “Cerrar sesión”. 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 6 de 14 
+VERSIÓN: 001 
+ 
+Inicio 
+Una vez iniciada sesión en el sistema, se desplegará la siguiente ventana: 
+●​ Dashboard - Oficialía de partes: 
+●​ Demandas 
+●​ Exhortos 
+●​ Actuaciones 
+●​ Consignaciones 
+●​ Estadísticas de actuaciones 
+●​ Procedencia 
+●​ Estadísticas de captura 
+ 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 7 de 14 
+VERSIÓN: 001 
+ 
+Firma digital de acuerdos 
+1.​ En la barra izquierda haz clic en la opción “Firma digital de acuerdos” 
+ 
+El sistema desplegará la siguiente ventana: 
+ 
+ 
+2.​ Haz clic en el recuadro “Folio acuerdo” e ingresa un nombre de folio 
+a.​ Presiona “Enter” 
+ 
+3.​ La ventana desplegará la información del folio. 
+4.​ Haz clic en “Fimar” 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 8 de 14 
+VERSIÓN: 001 
+ 
+La ventana permite realizar las siguientes acciones: 
+●​ Listar a los firmantes dando clic en el siguiente botón: 
+○​
+ 
+●​ Visualizar el acuerdo dando clic en el siguiente botón: 
+○​
+ 
+●​ Descargar el acuerdo dando clic en el siguiente botón: 
+○​
+ 
+●​ Imprimir acuse dando clic en el siguiente botón: 
+○​
+ 
+●​ Descargar el acuerdo dando clic en el siguiente botón: 
+○​
+ 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 9 de 14 
+VERSIÓN: 001 
+ 
+Bandeja mensajes CJF 
+1.​ En la barra izquierda haz clic en la opción “Bandeja mensajes CFJ” 
+ 
+El sistema desplegará la siguiente ventana, indicando: 
+●​ No. de juicio 
+●​ Bandeja de mensajes 
+ 
+ 
+La página permite realizar distintas acciones como: 
+●​ Buscar un mensaje por número de juicio 
+●​ Realizar una búsqueda de juicio a profundidad 
+●​ Actualizar la bandeja de mensajes 
+ 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 10 de 14 
+VERSIÓN: 001 
+ 
+Buscar un mensaje por número de juicio 
+1.​ Haz clic en el recuadro No. juicio 
+ 
+2.​ Ingresa un número de juicio a buscar 
+3.​ Haz clic en el botón “Buscar” 
+ 
+ 
+ 
+ 
+Realizar una búsqueda de juicio a profundidad 
+1.​ Haz clic en el siguiente ícono ubicado abajo de la barra de búsqueda: 
+ 
+ 
+La pantalla desplegará el cuadro de búsqueda mostrando más recuadros: 
+ 
+2.​ Llena los recuadros y haz clic en el botón “Buscar” 
+ 
+ 
+ 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 11 de 14 
+VERSIÓN: 001 
+ 
+ 
+Actualizar la bandeja de mensajes 
+1.​ Haz clic en el siguiente ícono: 
+ 
+ 
+La pantalla mostrará los mensajes que hayas recibido. 
+ 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 12 de 14 
+VERSIÓN: 001 
+ 
+III.​ Glosario de términos 
+ 
+●​ Acuerdos: Resoluciones o decisiones tomadas por el tribunal o sus integrantes, que se 
+plasman por escrito. 
+●​ Actuaciones: Conjunto de diligencias, trámites y resoluciones que se realizan dentro de 
+un procedimiento judicial. 
+●​ Bandeja de mensajes: Sección del sistema donde se reciben y gestionan las 
+comunicaciones o notificaciones. 
+●​ CFJ (CJF): Siglas del Consejo de la Judicatura Federal, órgano administrativo del Poder 
+Judicial. 
+●​ Consignaciones: Acto de depositar o poner a disposición de la autoridad judicial bienes 
+o valores. 
+●​ Cruce de información: Proceso de cotejar y vincular datos de distintas fuentes para 
+obtener un resultado. 
+●​ Dashboard - Oficialía de partes: Panel de control o vista principal del módulo 
+encargado de la recepción y registro de documentos judiciales. 
+●​ Demandas: Escrito por el cual se inicia un juicio, solicitando al tribunal una resolución 
+sobre un conflicto. 
+●​ Exhortos: Comunicación oficial que un juez dirige a otro de diferente jurisdicción, 
+solicitando su colaboración. 
+●​ Folio acuerdo: Número de identificación único asignado a un acuerdo o resolución 
+judicial. 
+●​ Juicio: Proceso legal ante un tribunal para resolver una controversia. 
+●​ No. de juicio: Número de identificación único asignado a un expediente judicial. 
+●​ Ponencia: Sección de un tribunal encargada de la elaboración de proyectos de 
+resolución. 
+●​ Procedencia: Determinación sobre si una acción legal o solicitud es admisible o cumple 
+con los requisitos. 
+●​ Registros solicitados: Información o documentos específicos que han sido requeridos 
+por una autoridad. 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 13 de 14 
+VERSIÓN: 001 
+ 
+●​ Reportes Sala Ordinaria Ponencia: Informes generados por la Sala Ordinaria de la 
+Ponencia sobre sus actividades o casos. 
+●​ Sistema Digital de Juicios: Plataforma tecnológica para la gestión electrónica de los 
+procesos judiciales. 
+●​ Tribunal de Justicia Administrativa de la Ciudad de México: Órgano jurisdiccional 
+encargado de resolver controversias entre particulares y la administración pública en la 
+CDMX. 
+●​ Usuario: Persona que interactúa con el Sistema Digital de Juicios. 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA ​
+DE LA CIUDAD DE MÉXICO 
+Día 
+Mes 
+Año 
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+DIRECCIÓN DE INFORMÁTICA 
+24 
+06 
+2025 
+MANUAL DE REPORTES SALA ORDINARIA PONENCIA - 
+INTERCONEXIÓN 
+Pág. 14 de 14 
+VERSIÓN: 001 
+ 
+IV.​ Control de cambios 
+ 
+Elaboró 
+Tipo de Cambio 
+(Modificación, adición o 
+supresión) 
+Fecha 
+Esthefania Vidal Solares 
+Creación 
+24 / 06 / 2025 
+ 
+ 
+ 
+ 
+IDENTIFICACIÓN 
+ELABORÓ 
+REVISÓ 
+AUTORIZÓ 
+TJACDMX/MANUAL_SIDJ_T
+JACDMX 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+ 
+LUIS ENRIQUE MOULINIE RUÏZ 
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA​
+DIRECTOR DE INFORMÁTICA
