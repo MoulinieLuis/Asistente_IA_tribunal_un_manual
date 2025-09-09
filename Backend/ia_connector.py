@@ -10,7 +10,7 @@ def preguntar_ia(prompt: str) -> str:
     try:
         url = "http://localhost:11434/api/generate"
         payload = {
-            "model": "mistral",  # 👈 Cambia este nombre si tu modelo es distinto
+            "model": "mistral",  
             "prompt": prompt
         }
         response = requests.post(url, json=payload, stream=True)
@@ -21,7 +21,7 @@ def preguntar_ia(prompt: str) -> str:
                 continue
             try:
                 data = json.loads(line.decode("utf-8"))
-                print("[DEBUG] Línea recibida:", data)  # 👈 Para ver qué regresa Ollama
+                print("[DEBUG] Línea recibida:", data)  
 
                 if "response" in data:
                     respuesta += data["response"]
