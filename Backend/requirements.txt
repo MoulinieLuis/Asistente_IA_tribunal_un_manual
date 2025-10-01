@@ -1,0 +1,19 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+faiss-cpu
+requests
+python-dotenv
+pymupdf
+
+fastapi
+uvicorn
+requests
+faiss-cpu
+sentence-transformers
+docling
+
+pip install nltk scikit-learn
+python -m pip install --upgrade pip
+
+pip install pdfminer.six
