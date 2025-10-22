@@ -1,0 +1,6569 @@
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+
+DE LA CIUDAD DE MÉXICO 
+
+Día  Mes  Año 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+27 
+
+05 
+
+2025 
+
+Pág. 1 de 90 
+
+VERSIÓN: 001 
+
+MANUAL SCARH TJACDMX 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 2 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+ÍNDICE 
+
+I. OBJETIVO GENERAL 
+II. DESARROLLO 
+Iniciar sesión 
+Cerrar sesión 
+Selección de un periodo quincenal 
+Empleados 
+
+Consultar incidencias 
+Deshabilitar una incidencia 
+Ver el justificante de una incidencia 
+Justificar una incidencia 
+Vea la sección “Justificar una incidencia” 
+Calcular incidencias del periodo por empleado 
+
+Incidencias 
+
+Deshabilitar una incidencia 
+Ver el justificante de una incidencia 
+Justificar una incidencia 
+Agregar una incidencia 
+Cerrar el periodo 
+Cargar al SIARH 
+Descargar un excel con el cuadro de descuentos 
+Descargar un excel con las incidencias 
+Calcular incidencias de empleados un día en específico o la quincena completa 
+Deshabilitar una incidencia 
+Ver el justificante de una incidencia 
+Justificar una incidencia 
+
+Descuentos 
+
+Descargar datos de descuento 
+Ver el tipo de incidencia del empleado 
+
+Descuentos V2 
+
+Mostrar todas las incidencias del empleado en el mes 
+Cerrar incidencias 
+Descargar reporte de incidencias 
+
+4 
+5 
+5 
+6 
+7 
+8 
+9 
+12 
+13 
+13 
+13 
+13 
+14 
+16 
+17 
+17 
+17 
+18 
+19 
+21 
+21 
+22 
+23 
+24 
+25 
+27 
+27 
+28 
+29 
+30 
+30 
+31 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 3 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Devoluciones 
+Justificantes 
+
+Bandeja justificantes 
+Acumulado empleados 
+Acumulado titular 
+
+Excepciones 
+Días económicos 
+Guardia vacacional 
+
+Descargar los datos de la guardia vacacional 
+Crear una guardia vacacional 
+Actualiza una guardia vacacional 
+Elimina una guardia vacacional 
+
+Notas buenas - Cálculo anual 
+
+Ver el cálculo de buenas notas 
+Consultar incidencias 
+Deshabilitar una incidencia 
+Ver el justificante de una incidencia 
+Cerrar periodo de notas buenas de un empleado 
+Generar un reporte de Notas Buenas en formato Excel 
+Cerrar el periodo de Notas Buenas 
+
+Premios 
+
+Premios de puntualidad 
+Consultar incidencias 
+Acreditar a un empleado 
+Bono anual— Pendiente de actualización 
+
+Eventos 
+Configuración 
+
+Avisos TJACDMX 
+Tipos excepciones 
+Tipos Justificantes 
+Días inhábiles 
+
+III. GLOSARIO DE TÉRMINOS 
+IV. CONTROL DE CAMBIOS 
+V. APROBACIÖN DEL MANUAL 
+
+33 
+35 
+35 
+40 
+40 
+44 
+49 
+55 
+56 
+57 
+58 
+59 
+60 
+62 
+63 
+64 
+64 
+64 
+65 
+67 
+68 
+68 
+69 
+69 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 4 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+I. 
+
+OBJETIVO GENERAL 
+
+El  presente  manual  tiene  como  finalidad  ofrecer  a  los  usuarios  del  Sistema  de  Control  de 
+Asistencia TJACDMX una guía, precisa y de fácil acceso sobre la correcta utilización de las diversas 
+funcionalidades que integran la plataforma. 
+
+Busca  facilitar  la  comprensión  y  correcta  operación  del  sistema  para  la  gestión  de  información  de 
+personal  en  temas  de  asistencia,  incidencias,  justificantes  y  demás  procesos  relacionados, 
+contribuyendo  así  a  una  gestión  eficiente,  ordenada  y  transparente  de  la  información  de  los 
+empleados del Tribunal de Justicia Administrativa de la Ciudad de México. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 5 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+II. 
+
+DESARROLLO 
+
+Iniciar sesión 
+1. Accede al Sistema Portal del Empleado TJACDMX con el siguiente enlace: 
+
+https://siprod.tjacdmx.gob.mx/cfditjacdmx/#/asistencia 
+
+2. Ingresar el usuario y la contraseña, a continuación, dar clic en “Ingresar”. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 6 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Cerrar sesión 
+
+1.  En la pantalla principal haz clic en el siguiente ícono:  
+
+Se desplegará el siguiente menú: 
+
+2.  Haz clic en “Salir” 
+
+El sistema mostrará la primera página: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 7 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Selección de un periodo quincenal 
+En  todas  las  pantallas  del  sistema se mostrará una barra de color azul que permitirá seleccionar el 
+periodo quincenal: 
+
+El sistema desplegará la siguiente ventana: 
+
+1.  Haz clic en el periodo quincenal que deseas consultar. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 8 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Empleados 
+
+1.  En la pantalla principal, en el menú haz clic en la sección “Empleados” 
+
+El sistema desplegará la siguiente pantalla: 
+
+La barra intermedia indica la sección en la que el usuario se encuentra y el periodo quincenal que se 
+muestra en pantalla: 
+
+La barra inferior permite filtrar los empleados mostrados por: 
+
+●  Todos 
+●  Estructura 
+●  Enlace 
+●  Operativo 
+●  Operativo sindicalizado 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 9 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Y el buscador permite encontrar a un empleado en específico por su clave de empleado o nombre 
+
+Nota: Es posible consultar información rápida de un empleado colocando el puntero del mouse en su 
+nombre en la ventana principal. 
+
+Ejemplo: 
+
+Consultar incidencias 
+
+1.  En  la  pantalla  principal  de  “Empleados”,  haz clic en el siguiente botón del lado derecho del 
+
+registro del empleado:    
+
+El sistema desplegará la siguiente pantalla, compuesta por distintas secciones: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 10 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+La barra gris superior indicará la información del empleado como: 
+
+●  Nombre 
+●  Nombre del puesto actual 
+●  Ubicación 
+● 
+
+ID de empleado 
+
+La barra inferior muestra el periodo en fechas de las incidencias que se están mostrando en pantalla: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 11 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Nota:  Para  ver  un  periodo  más  amplio  de  incidencias,  haz  clic en fecha de inicio y selecciona una 
+
+fecha, haz clic en fecha fin y selecciona una fecha y haz clic en el botón consultar: 
+
+La  primera  barra  izquierda  mostrará  los  tipos  de  justificantes  del  empleado,  así  como  las 
+excepciones: 
+
+Nota: Al hacer clic en los recuadros podrá visualizar únicamente ese tipo de Justificante u excepción  
+en pantalla. 
+
+La segunda barra izquierda exhibe exclusivamente los días en los que se registraron incidencias: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 12 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+La  pantalla  de  incidencias  presenta  el  historial  de incidencias del empleado, las cuales pueden ser 
+filtradas  por  periodos  de  días,  seleccionando  opciones  específicas  en  la  barra  de  justificantes,   o 
+seleccionando un día en concreto, la pantalla muestra: 
+
+●  Fecha 
+●  Horario 
+●  Hora de entrada 
+●  Hora de salida 
+●  Diferencia 
+●  Tipo de incidencia 
+●  Valor 
+
+En  la  cabecera  de  la  ventana  de  incidencias  se  encuentran  filtros  que  ayudan  a  ordenar  las 
+incidencias por tipos como: Todos, Retardo leve, Falta por retardo, Retardo grave,  Falta, Omisión de 
+Salida, Omisión de entrada,Salida antes de tiempo. 
+
+Deshabilitar una incidencia 
+Vea la sección “Deshabilitar una incidencia” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 13 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ver el justificante de una incidencia 
+Vea la sección “Ver el justificante de una incidencia” 
+
+Justificar una incidencia 
+
+Vea la sección “Justificar una incidencia” 
+
+Calcular incidencias del periodo por empleado 
+
+1.  En la pantalla principal de “Empleados”, haz clic en el siguiente ícono:  
+
+EL  sistema  desplegará  la  siguiente  ventana,  indicando  que  se  hará  el  cálculo  de  incidencias  del 
+empleado en el periodo seleccionado: 
+
+2.  Haz clic en “Calcular”.   
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 14 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+El sistema mostrará en pantalla el total de incidencias generadas. 
+
+Incidencias 
+
+1.  En la pantalla principal haz clic en la sección “Incidencias”. 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  La barra de incidencias 
+●  Los días y el número de incidencias 
+●  La barra para filtrar a los empleados 
+●  La barra de búsqueda de empleados 
+●  El desglose de incidencias de ese día por empleado con las columnas 
+
+○  Fecha 
+○  Clave de empleado 
+○  Género del empleado 
+○  Nombre del empleado 
+○  Horario 
+○  Hora de entrada 
+○  Hora de salida 
+○  Diferencia en horas 
+○  Tipo de incidencia 
+○  Valor 
+
+●  La opción para deshabilitar la incidencia 
+●  La opción para ver el justificante / Opción para justificar la incidencia 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 15 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+La barra intermedia indica la sección en la que el usuario se encuentra y el periodo quincenal que se 
+muestra en pantalla, además, la barra permite realizar las siguientes acciones: 
+
+●  Agregar una incidencia: 
+
+●  Cerrar el periodo: 
+
+●  Cargar al SIARH: 
+
+●  Descargar un excel con el cuadro de descuentos: 
+
+●  Descargar un excel con las incidencias: 
+
+●  Calcular un día en específico o la quincena completa: 
+
+La barra izquierda permite mostrar las incidencias por día: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 16 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+En  la  cabecera  de  la  ventana  de  incidencias  se  encuentran  filtros  que  ayudan  a  ordenar  a  los 
+empleados por: 
+
+●  Estructura 
+●  Enlace 
+●  Operativo 
+●  Operativo sindicalizado 
+
+También  permite  ordenar  las  incidencias  por  tipos  como:  Todos,  Retardo  leve,  Falta  por  retardo, 
+Retardo grave,  Falta, Omisión de Salida, Omisión de entrada, Salida antes de tiempo. 
+
+Así  como  buscar  una  incidencia  por  fecha, clave, nombre de empleado, hora de entrada u hora de 
+salida: 
+
+Deshabilitar una incidencia 
+Vea la sección “Deshabilitar una incidencia” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 17 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ver el justificante de una incidencia 
+Vea la sección “Ver el justificante de una incidencia” 
+
+Justificar una incidencia 
+Vea la sección “Justificar una incidencia” 
+
+Agregar una incidencia 
+Nota:  Esta  opción  resulta  útil  cuando un empleado incurre en una incidencia, pero el sistema no la 
+refleja  debido  a  que  el  empleado  cuenta  con  alguna  excepción,  tal  como  la  de  "actuario"  (cuyos 
+registros no se efectúan en lectoras). 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Ingresa los datos de la incidencia: 
+
+●  Fecha de la incidencia 
+●  Empleado 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 18 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  Tipo de incidencia 
+●  Horario de entrada 
+●  Horario de salida 
+
+3.  Haz clic en “Guardar” 
+
+Cerrar el periodo 
+Nota:  Esta  opción se utiliza cuando se ha completado el registro de justificantes y excepciones, así 
+como la revisión de la asistencia y se requiere mandar la información al SIARH. 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 19 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Haz clic en “Aceptar”. 
+
+Cargar al SIARH 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  Un cuadro que cargará los datos mostrado al sistema SIARH 
+●  Cuadros que muestran el número de incidencias por tipo 
+●  El total de incidencias 
+●  Una barra de búsqueda de incidencia por clave de empleado o nombre de empleado 
+●  Un botón para descargar los datos mostrados en formato CSV 
+●  Los registros por cada incidencia de cada empleado, mostrando: 
+
+○  Número de empleado 
+○  Nombre de empleado 
+○  Fecha 
+○  Clave SIARH 
+○  Clave  
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 20 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Nota: Puedes dar clic en algún empleado para ver la cantidad de incidencias que tiene en un mismo 
+recuadro: 
+
+2. Haz clic en el botón “Cargar”: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 21 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+3. Haz clic en “Aceptar”. 
+
+Nota: Esta función permite que, al seleccionar la opción de cargar, todos los registros mostrados en 
+el resumen sean enviados y registrados en el SIARH. 
+
+Descargar un excel con el cuadro de descuentos 
+
+1.  Haz clic en el siguiente botón: 
+2.  Selecciona la opción “Cuadro descuentos”: 
+
+El sistema mostrará un mensaje en la parte inferior de la pantalla “Generando Cuadro descuentos 
+incidencias”. 
+
+Una vez terminado el sistema mostrará la ventana para guardar el archivo. 
+
+Descargar un excel con las incidencias 
+
+1.  Haz clic en el siguiente botón: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 22 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Selecciona la opción “Incidencias” 
+
+El sistema mostrará un mensaje en la parte inferior de la pantalla “Generando Incidencias”. 
+
+Una vez terminado el sistema mostrará la ventana para guardar el archivo 
+
+3.  Haz clic en “Guardar”. 
+
+Calcular incidencias de empleados un día en específico o la quincena 
+completa 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema mostrará una ventana en la que se puede seleccionar:  
+
+Calcular la quincena completa o seleccionar un día en específico: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 23 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Selecciona alguna de las opciones 
+
+El sistema desplegará la siguiente ventana: 
+
+3.  Haz clic en “Aceptar”. 
+
+Deshabilitar una incidencia 
+Nota: Esta opción resulta útil cuando el empleado muestra una incidencia en el sistema que no es de 
+su competencia. Al deshabilitarla, la incidencia no se incluirá en los reportes ni en el cálculo que se 
+carga en el SIARH. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 24 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+1.  En la ventana de incidencias, haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Haz clic en “Deshabilitar” 
+
+El sistema desplegará la siguiente ventana: 
+
+Se debe ingresar una descripción de por qué la incidencia está siendo deshabilitada. 
+
+3.  Haz clic en “Deshabilitar”. 
+
+Ver el justificante de una incidencia 
+
+1.  En la ventana de incidencias da clic en la incidencia que tenga el siguiente ícono: 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  No. oficio 
+●  Fecha oficio 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 25 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  Tipo de justificante 
+●  Los días que el justificante cubre 
+●  Los empleados a los que el justificante cubre (por ejemplo:en caso de que el justificante sea 
+
+el mismo, como el caso del día de la madre) 
+●  Vista previa del justificante en formato PDF 
+
+Dentro de la vista previa de la constancia anual es posible realizar las siguientes acciones: 
+
+1.  Imprimir el PDF de la incidencia dando clic en el siguiente ícono: 
+
+2.  Descargar el PDF de la incidencia dando clic en el siguiente botón: 
+
+Justificar una incidencia 
+
+1.  En la pantalla de incidencias da clic en la incidencia que tenga el siguiente ícono: 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  Fecha de recepción 
+●  Número de referencia / No. de oficio 
+●  Tipo 
+● 
+
+Incidencias 
+
+○  Fecha de la incidencia 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 26 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+○  Tipo de incidencia 
+○  Nombre del empleado que  cometió la incidencia 
+○  Una casilla verificadora para seleccionar la incidencia 
+
+●  Descripción (opcional) 
+●  Una opción para cargar el archivo PDF del justificante 
+
+2.  Registra los datos de la incidencia 
+
+Nota: Recuerda seleccionar la casilla de la incidencia: 
+
+3.  Haz clic en el botón guardar. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 27 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Descuentos 
+
+1.  En la pantalla principal haz clic en la sección “Descuentos”. 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  Número de empleado 
+●  Empleado 
+●  Nivel 
+●  Código puesto 
+●  Puesto 
+●  Total descuento 
+●  Total días 
+●  Descuento diario 
+
+Descargar datos de descuento 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema mostrará la ventana de descargas: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 28 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Selecciona “Guardar”. 
+
+Ver el tipo de incidencia del empleado 
+
+1.  En la pantalla “Descuentos” haz clic en el registro del empleado que deseas consultar 
+
+El sistema desplegará el detalle del tipo de incidencia 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 29 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Descuentos V2 
+Nota:  La pantalla Descuentos V2 permite visualizar las incidencias mensuales por empleado y 
+además carga los descuentos al SIARH, a diferencia de la versión anterior.. 
+
+1.  En la pantalla principal haz clic en la sección “Descuentos V2”. 
+
+El sistema desplegará la siguiente ventana, indicando las incidencias: 
+
+●  Número de empleado 
+●  Empleado 
+●  Puesto 
+●  Días del mes 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 30 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Mostrar todas las incidencias del empleado en el mes 
+
+1.  Haz clic en el registro de un empleado 
+
+El sistema desplegará la información de todas sus incidencias en el mes: 
+
+Cerrar incidencias 
+
+1.  En la parte superior de la pantalla haz clic en el siguiente botón: 
+
+El sistema mostrará la siguiente ventana: 
+
+2.  Selecciona el periodo que deseas cerrar 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 31 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+3.  Haz clic en “Continuar” 
+
+El sistema mostrará la siguiente ventana: 
+
+4.  Haz clic en “OK” 
+
+Descargar reporte de incidencias 
+
+1.  En la parte superior de la pantalla haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Selecciona la opción “Pago” o “Pago Detalle” 
+
+Nota: “Pago Detalle incluye más información” 
+
+El sistema mostrará la ventana de descargar 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 32 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+3.  Selecciona la ruta para guardar el documento y haz clic en “Guardar”
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 33 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Devoluciones 
+
+1.  En la pantalla principal haz clic en la sección “Devoluciones”. 
+
+El sistema desplegará la siguiente pantalla, indicando: 
+
+●  Fecha 
+●  Clave 
+● 
+Importe 
+●  Estado 
+●  Acciones 
+
+La barra de búsqueda permite buscar a un empleado por su clave de empleado: 
+
+Nota: Para que proceda una devolución, el empleado debe figurar en el módulo de “descuentos” 
+durante la quincena anterior de trabajo. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 34 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ejemplo: Al empleado mencionado, durante la quincena previa, se le aplicaron los descuentos 
+exhibidos en pantalla, los cuales corresponden a las incidencias contabilizadas a lo largo de ese 
+
+en el descuento a restituir, se 
+período. Acto seguido, se hará clic en el botón siguiente: 
+confirmará el monto, el tipo de incidencia, y se elegirá la quincena en la que se realizará la 
+devolución. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 35 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Justificantes 
+
+Bandeja justificantes 
+
+1.  En la pantalla principal haz clic en la sección “Justificantes” 
+2.  Haz clic en la sección “Bandeja justificantes” 
+
+El sistema mostrará la siguiente pantalla, indicando: 
+
+●  Fecha de ingreso 
+●  Oficio 
+●  Fecha recepción 
+●  Justificante 
+
+La pantalla permite: 
+
+●  Ver el acumulado por empleado: 
+
+●  Agregar un justificante: 
+●  Buscar un justificante por fechas u oficio: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 36 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  Descargar los datos mostrados en formato CSV: 
+
+Nota: Al pasar el cursor del mouse sobre la columna oficio, la pantalla mostrará una ventana de 
+vista rápida como la siguiente: 
+
+Nota: Al pasar el cursor del mouse sobre la columna justificante, la pantalla mostrará un mensaje 
+como el siguiente: 
+
+Ver un justificante 
+
+1.  Haz clic en cualquier registro que aparece en pantalla  
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 37 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ver acumulado por empleado 
+Nota: Este módulo ha sido desarrollado con el propósito de proporcionar un cálculo ágil del personal 
+y el número de justificantes acumulados hasta la fecha. Dado que el límite máximo de justificantes 
+permitidos es diez, esta herramienta otorga un mayor control a la persona encargada de su gestión. 
+
+1.  En la pantalla de “Bandeja justificantes” haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  Clave del empleado 
+●  Nombre del empleado 
+●  Puesto 
+●  Área 
+●  El total de Incidencias justificadas  
+
+EL sistema permite filtrar los resultados mostrados por: 
+
+●  Todo 
+●  Estructura 
+●  Enlace 
+●  Operativo 
+●  Operativo sindicalizado 
+
+Filtrar los resultados que se muestran con la barra “Buscar” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 38 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ver el acumulado de incidencias de un empleado 
+
+1.  Haz clic en el registro de un empleado 
+
+El sistema desplegará la siguiente ventana detallando las incidencias del empleado: 
+
+Agregar un nuevo justificante 
+
+1.  Haz clic en el siguiente botón: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 39 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Llena los datos del justificante: 
+●  Fecha de recepción 
+●  Referencia 
+●  Tipo de justificante 
+●  Selecciona a un empleado 
+●  Agrega una descripción (opcional) 
+●  Agrega el justificante en formato PDF 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 40 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+3.  Haz clic en “Guardar”. 
+
+Acumulado empleados 
+
+Diríjase a la sección “Ver Acumulado por empleados” 
+
+Acumulado titular 
+Nota: Esta opción resulta útil para el área de Recursos Humanos, ya que permite visualizar el 
+número total de justificantes por tipo de contrato, ya sea de confianza u operativo. Esto es 
+particularmente útil debido a que cada tipo de contrato está sujeto a regulaciones específicas. Por 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 41 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+ejemplo, los empleados operativos sindicalizados para ser acreedores al premio de puntualidad no 
+deben tener justificantes clasificados como "justificado por titular". 
+
+1.  En la pantalla principal haz clic en la sección “Justificantes” 
+2.  Haz clic en la sección “Acumulado titular” 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  Clave 
+●  Nombre del empleado 
+●  Puesto 
+●  Contrato 
+●  E (entrada) 
+
+●  S (salida) 
+●  E/S (Entrada / Salida) 
+●  F (Falta) 
+●  Total 
+
+El sistema permite filtrar los resultados mostrados por: 
+
+●  Todo 
+●  Confianza 
+●  Operativo 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 42 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Nota:  Los  colores  mostrados  poseen  significados  específicos: el azul indica normalidad, señalando 
+que aún existen justificantes posibles; el amarillo advierte que se está en el límite permitido; y el rojo 
+denota que se han excedido los límites establecidos. 
+
+El  límite  total  es  de  10, distribuidos en 5 para faltas y 5 para otros aspectos, tales como retardos u 
+omisiones. 
+
+●  El  sistema  también  permite descargar los datos mostrados en formato CSV dando clic en el 
+
+siguiente botón: 
+
+Ver el detalle del acumulado titular 
+
+1.  Haz clic en el registro del empleado que deseas consultar 
+
+El sistema desplegará la siguiente ventana con el registro detallado de los justificantes del empleado: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 43 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 44 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Excepciones 
+Nota:  Las  excepciones  se  utilizan  para  que  el  sistema,  al  efectuar  el  cálculo  de  asistencia  del 
+empleado, no registre o muestre incidencias  en la temporalidad establecida en dicha excepción. 
+
+1.  En la pantalla principal da clic en la sección “Excepciones” 
+
+El sistema desplegará la siguiente pantalla, indicando: 
+
+●  Clave  
+●  Apellido paterno 
+●  Apellido materno 
+●  Nombre 
+●  Clave 
+●  Tipo de autorización 
+●  H. entrada 
+●  H. salida 
+● 
+Inicio 
+●  Fin 
+
+El sistema también permite: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 45 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  Agregar una excepción: 
+●  Filtrar los registros mostrados:  
+
+●  Buscar a un empleado en específico con su clave o nombre:  
+
+Agregar una excepción 
+Nota: El sistema permite registrar múltiples excepciones en un mismo período para un empleado. En 
+tal caso, el sistema prioriza la excepción más reciente para su justificación. 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 46 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Llena los datos de la excepción: 
+●  Fecha de recepción 
+●  Referencia / No. de oficio 
+●  Tipo de excepción 
+●  Temporalidad 
+
+○  Fecha inicio 
+○  Fecha fin 
+
+●  Horario autorizado 
+
+○  Hora entrada 
+○  Hora salida 
+●  Seleccionar a un empleado 
+●  Descripción (opcional) 
+●  Agregar el archivo de la excepción en formato PDF 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 47 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+3.  Haz clic en el botón “Guardar” 
+
+Ejemplo: 
+
+Por favor, considere el ejemplo de dos excepciones. Específicamente, tome en cuenta la del 1 de 
+marzo y, posteriormente, la otra excepción en el marco de la temporalidad de finalización. De este 
+modo, se prioriza la excepción del 1 de marzo como punto de partida. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 48 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Quitar una excepción existente 
+Nota:  Al  eliminar  una  excepción  previamente  utilizada  para  justificar  incidencias  de  un  período  y 
+proceder  a  su  eliminación,  continuando  con  las  quincenas  subsiguientes,  al  revisar  quincenas 
+anteriores se podrían observar inconsistencias. Esto se debe a la eliminación de la excepción. 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema mostrará la siguiente pantalla: 
+
+2.  Haz clic en “Aceptar” 
+
+Ejemplo: 
+
+Cuando  un  empleado  finaliza  su  licencia  y  posteriormente  se  le asigna un nuevo horario aprobado 
+por  la  junta  de gobierno, se recomienda editar la fecha de finalización de la licencia, en caso de no 
+existir,  y  registrar  el  nuevo  horario.  Esto  permitirá  mantener  un  historial  completo  de  ambas 
+situaciones. 
+
+Nota: Se recomienda eliminar excepciones que hayan sido agregadas incorrectamente o con datos 
+erróneos. Aunque es posible editar una excepción, no se debe eliminar si aún aplica al empleado.
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 49 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Días económicos 
+Nota: Este módulo es exclusivo del personal sindicalizado. 
+
+Nota: En caso de que algún empleado se haya sindicalizado recientemente, es fundamental 
+incorporarlo al registro y asignarle los días correspondientes en función de su fecha de ingreso. 
+
+1.  En la pantalla principal haz clic en la sección “Días económicos” 
+
+El sistema mostrará la siguiente ventana, indicando: 
+
+●  Clave del empleado 
+●  Nombre del empleado 
+●  Días otorgados 
+●  Días utilizados 
+●  Valor restante 
+
+○  Nota valor restante: El sistema actual carece de un mecanismo de restricción que 
+impida la justificación de asistencia excediendo los días permitidos. Por lo tanto, se 
+considera crucial llevar a cabo una revisión exhaustiva del número de días utilizados 
+por cada empleado. 
+
+El sistema permite: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 50 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  Cerrar el periodo de días económicos 
+●  Descargar los días económicos en formato excel 
+●  Crear un nuevo registro de día económico 
+●  Editar el día económico de un empleado 
+●  Cerrar el periodo de días económicos de un empleado 
+
+Cerrar el periodo de días económicos 
+Nota:  Al  cerrar  el  periodo  de  días  económicos  por  empleado  o  de  manera  general,  el  sistema 
+transmite  dicha  información  al  Sistema  Integral  de  Recursos  Humanos  (SIARHV2).  Este  proceso 
+permite realizar los cálculos subsiguientes. En caso de que se efectúen modificaciones posteriores al 
+cierre,  se  puede  volver  a  cerrar  el  periodo  para  que  la  información  actualizada  sea  enviada  al 
+SIARHV2. 
+
+Para cerrar el periodo de días económicos hay dos formas de hacerlo 
+
+1.  Haz clic en el botón superior: 
+
+  o haz clic en el botón que está del lado derecho de los 
+
+registros de los empleados: 
+
+En cualquiera de los dos botones, el sistema mostrará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 51 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Haz clic en “Aceptar” 
+
+Descargar los días económicos en formato excel 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana para guardar el archivo: 
+
+2.  Haz clic en “Guardar” 
+
+Crear un nuevo registro de día económico 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 52 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Llena los datos del nuevo registro: 
+●  Selecciona a un empleado 
+●  Selecciona la cantidad de días otorgados 
+●  Selecciona la fecha de inicio de la temporalidad 
+●  Selecciona la fecha fin de la temporalidad 
+
+3.  Haz clic en “Guardar” 
+
+Editar el día económico de un empleado 
+
+1.  Haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 53 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Nota: El empleado seleccionado no puede ser modificado. 
+
+2.  Modifica los elementos del día económico 
+
+3.  Haz clic en “Guardar” 
+
+Ver los días económicos de un empleado 
+1.  Haz clic en un registro de un empleado 
+
+El sistema mostrará la siguiente ventana con los registros de los días económicos del empleado: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 54 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 55 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Guardia vacacional 
+
+1.  En la pantalla principal haz clic en la sección “Guardia vacacional” 
+
+El sistema mostrará la siguiente pantalla, indicando: 
+
+●  No. empleado 
+●  Empleado 
+●  Año 
+●  P. Vacacional Días 
+
+La barra superior permite crear una nueva guardia vacacional: 
+
+Filtrar los resultados mostrados por años: 
+
+Seleccionar un periodo vacacional: 
+
+Actualizar los resultados y mostrarlos en pantalla: 
+
+Buscar a un empleado específico: 
+
+Generar un reporte en formato CSV: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 56 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Nota: Es posible consultar los días de guardia de un empleado de forma rápida al poner el cursor del 
+mouse sobre su registro, el sistema mostrará una ventana como la siguiente: 
+
+Descargar los datos de la guardia vacacional 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la ventana para guardar el documento, selecciona la ruta 
+
+2.  Haz clic en “Guardar”. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 57 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Crear una guardia vacacional 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+2. Selecciona los días de guardia del empleado y selecciona al personal 
+
+3. Haz clic en “Guardar” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 58 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+El sistema desplegará la siguiente ventana: 
+
+4. Haz clic en “Aceptar”. 
+
+Actualiza una guardia vacacional 
+
+1.  En la pantalla principal haz clic en el registro de un empleado 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 59 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Haz clic en “Editar” 
+3.  Selecciona los días y personal 
+4.  Haz clic en “Guardar” 
+
+Elimina una guardia vacacional 
+
+1.  En la pantalla principal haz clic en el registro de un empleado 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Haz clic en “Eliminar” 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 60 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+3.  Haz clic en “Aceptar” 
+
+Notas buenas - Cálculo anual 
+Nota: Este módulo es exclusivo del personal sindicalizado. 
+
+Nota: El módulo exhibe las notas por puntualidad y asistencia que el empleado ha obtenido. 
+
+El  empleado  será  elegible  para  recibir  una  nota  de  reconocimiento  bimestral  si,  a  pesar  de  tener 
+incidencias  durante  el  bimestre, todas ellas han sido debidamente justificadas. Si durante el año no 
+se 
+reconocimiento 
+correspondientes. 
+
+injustificadas,  se  acumularán 
+
+las  6  notas  de 
+
+incidencias 
+
+registraron 
+
+1.  En la pantalla principal haz clic en la sección “Notas buenas” 
+2.  Haz clic en la sección “Cálculo anual” 
+
+El sistema mostrará la siguiente ventana, indicando: 
+
+●  Número de empleado 
+●  Nombre de empleado 
+●  NOV/DIC 
+●  ENE/FEB 
+●  MAR/ABR 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 61 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  MAY/JUN 
+●  JUL/AGO 
+●  SEP/OCT 
+●  Total 
+
+La pantalla permite realizar distintas acciones como: 
+
+●  Generar un reporte de Notas Buenas en formato Excel: 
+
+●  Cerrar el periodo de Notas Buenas: 
+
+La ventana superior permite: 
+
+●  Seleccionar el año de los registros que se muestran 
+●  Mostrar los resultados 
+
+La ventana inferior permite buscar a un empleado por su nombre o clave de empleado: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 62 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ver el cálculo de buenas notas 
+
+1.  En la pantalla principal haz clic en el registro del empleado que deseas consultar 
+
+El sistema mostrará la siguiente ventana, indicando el total de incidencias e incidencias justificadas 
+por bimestre, más el total de puntos que el empleado acumula por bimestre: 
+
+Nota: Hacer clic en los íconos de incidencias o incidencias injustificadas mostrará todas las 
+incidencias del empleado. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 63 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ejemplo: 
+
+En esta situación, el sistema indica un valor de cero debido a la presencia de incidencias, algunas de 
+las cuales no fueron justificadas durante el bimestre. 
+
+Consultar incidencias 
+En esta pantalla existen 2 formas de consultar las incidencias de un empleado: 
+
+1.  En la pantalla de cálculo de “Buenas notas” haz clic en los íconos incidencias o incidencias 
+
+justificadas 
+
+2.  En la pantall principal, dar clic en el siguiente ícono: 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  El total de justificantes ordenados por tipo de justificante 
+●  Los días a los que pertenecen las incidencias 
+●  Filtros para ordenar los resultados mostrados 
+●  El recuadro principal de registros de incidencias, indicando: 
+
+○  Fecha 
+○  Horario 
+○  H. entrada 
+○  H. salida 
+○  Diferencia 
+Incidencia 
+○ 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 64 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+○  Valor 
+
+Deshabilitar una incidencia 
+Vea la sección “Deshabilitar una incidencia” 
+
+Ver el justificante de una incidencia 
+Vea la sección “Ver el justificante de una incidencia” 
+
+Cerrar periodo de notas buenas de un empleado 
+Nota:  Al  hacer  clic  en  "Cerrar  período  por  empleado"  o  "Cerrar  período  general",  el  cálculo 
+correspondiente será enviado al SIARHV2. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 65 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+1.  En la ventana principal haz clic en el siguiente botón ubicado del lado derecho del registro de 
+
+un empleado: 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Haz clic en “Aceptar” 
+
+Generar un reporte de Notas Buenas en formato Excel 
+
+1.  En la pantalla principal, haz clic en el siguiente ícono:
+
+El sistema desplegará la ventana para guardar el archivo: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 66 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Haz clic en “Guardar” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 67 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Cerrar el periodo de Notas Buenas 
+
+1.  En la pantalla principal, haz clic en el siguiente botón: 
+
+El sistema desplegará las siguiente ventana: 
+
+2.  Haz clic en “Aceptar” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 68 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Premios 
+
+Premios de puntualidad 
+Nota: Esta sección solo es aplicable y únicamente aparecerán los empleados sindicalizados. 
+
+1.  En la pantalla principal haz clic en la sección “Premios” 
+2.  Haz clic en la sección “Premios de puntualidad”. 
+
+a.  Nota “Premios de puntualidad”: El sistema identifica a los empleados elegibles para 
+
+el premio de puntualidad, es decir, aquellos que no tienen ausencias o cuyas 
+ausencias han sido debidamente justificadas, indicándolos en color verde. 
+
+El sistema desplegará la siguiente pantalla, indicando: 
+
+●  No. Emp 
+●  Empleado 
+● 
+●  Puesto 
+●  Departamento 
+
+Inicio Sindicalización 
+
+La pantalla permite: 
+
+●  Descargar los datos mostrados en formato Excel dando clic en el siguiente botón: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 69 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  Filtrar los datos mostrados por año y semestre:
+
+Filtrar los registros por: 
+
+●  Todos 
+●  Acreedores 
+●  No acreedores 
+
+Buscar  un empleado por su número de empleado o nombre: 
+
+Descargar los datos mostrados en formato CSV dando clic en el siguiente botón: 
+
+Consultar incidencias 
+Consulte la sección “Consultar incidencias” 
+
+Acreditar a un empleado 
+Nota: Esta opción resulta útil cuando, a pesar de que el empleado figure como no acreedor en el 
+sistema, se le otorgará de manera excepcional el apoyo por puntualidad. 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana, indicando ingresar una descripción para la acreditación: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 70 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Ingresa la descripción y da clic en “Aceptar” 
+
+Bono anual— Pendiente de actualización
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 71 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Eventos 
+
+1.  En la pantalla principal haz clic en la sección “Eventos” 
+
+El sistema mostrará la siguiente ventana, indicando: 
+
+●  Clave 
+●  Fecha 
+●  Entrada 
+●  Salida 
+●  Registros 
+
+El sistema 
+permite seleccionar una fecha de inicio, seleccionar una fecha fin y seleccionar la clave de algún 
+empleado para mostrar un registro específico: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 72 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ver el registro de eventos de un empleado 
+
+1.  En la pantalla principal haz clic en el registro del empleado que se buscó previamente 
+
+El sistema desplegará la siguiente ventana: 
+
+La ventana permite descargar los datos mostrados en formato CSV haciendo clic en el siguiente 
+
+botón: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 73 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Configuración 
+
+Avisos TJACDMX 
+Nota: En este módulo se registrarán avisos con el propósito de que sean mostrados en el portal del 
+empleado. 
+
+1.  En la pantalla principal haz clic en la sección “Configuración” 
+2.  Haz clic en la sección “Avisos TJACDMX” 
+
+El sistema mostrará la siguiente ventana: 
+
+La pantalla permite realizar las siguientes acciones: 
+
+●  Agregar un nuevo aviso: 
+●  Buscar un aviso por su nombre: 
+
+●  Ver un aviso: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 74 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  Editar un aviso: 
+
+●  Eliminar un aviso: 
+
+Agregar un nuevo aviso 
+
+1.  En la pantalla principal haz clic en els siguiente botón: 
+
+El sistema desplegará la siguiente ventana, indicando: 
+
+●  Título 
+●  Fecha de inicio 
+●  Hora de inicio 
+●  Fecha término 
+●  Hora de fin 
+●  Tipo contrato 
+●  Una sección para arrastrar el archivo en PDF del evento 
+
+2.  Llena lo datos del evento y haz clic en “Guardar” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 75 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Ver un aviso 
+
+1.  En la pantalla principal haz clic en el siguiente botón:
+
+El sistema desplegará la siguiente ventana mostrando la vista previa del evento: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 76 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Editar un aviso 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana, mostrando la vista previa de los datos del evento: 
+
+2.  Edita los datos del evento y haz clic en “Guardar”. 
+
+Eliminar un aviso 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 77 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2. Haz clic en “Aceptar”. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 78 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Tipos excepciones 
+Nota: Este es un catálogo. Si se registra una nueva excepción, estas aparecerán habilitadas en la 
+sección de excepciones y justificantes al seleccionar agregar justificante u excepción. 
+
+1.  En la pantalla principal haz clic en la sección “Configuración” 
+2.  Haz clic en la sección “Tipos excepciones” 
+
+El sistema mostrará la siguiente ventana: 
+
+La pantalla permite realizar las siguientes acciones: 
+
+●  Agregar una nueva excepción: 
+●  Buscar una excepción por su nombre: 
+
+●  Editar una excepción 
+
+●  Eliminar una excepción: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 79 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Agregar una excepción 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Llena los datos de la excepción y haz clic en “Guardar” 
+
+Editar una excepción 
+
+1.  En la pantalla principal haz clic en el registro de la excepción que quieras modificar: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 80 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Edita los datos de la excepción y haz clic en “Guardar” 
+
+Eliminar una excepción 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 81 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Haz clic en “Aceptar” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 82 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Tipos Justificantes 
+Nota: El presente es un catálogo. Al registrar un nuevo elemento, estos se habilitarán cuando se 
+justifique una incidencia con el tipo de justificante correspondiente. 
+
+1.  En la pantalla principal haz clic en la sección “Configuración” 
+2.  Haz clic en la sección “Tipos justificantes” 
+
+El sistema mostrará la siguiente ventana: 
+
+La pantalla permite realizar las siguientes acciones: 
+
+●  Agregar una justificación: 
+●  Buscar un justificante por su nombre: 
+
+●  Editar un justificante 
+
+●  Eliminar un justificante: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 83 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Agregar un justificante 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Llena los datos del justificante y haz clic en “Guardar” 
+
+Editar un justificante 
+
+1.  En la pantalla principal haz clic en el registro del justificante que quieras modificar: 
+
+El sistema desplegará la siguiente ventana: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 84 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+2.  Edita los datos de la excepción y haz clic en “Guardar” 
+
+Eliminar un justificante 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+3.  Haz clic en “Aceptar” 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 85 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+Días inhábiles 
+Nota: Los días no laborables, son aquellos correspondientes a los días inhábiles establecidos por el 
+tribunal, los cuales se registran al inicio del año. Cualquier día que se incluya aquí, el sistema lo 
+omitirá del cálculo de asistencia para todos los empleados. 
+
+1.  En la pantalla principal haz clic en la sección “Configuración” 
+2.  Haz clic en la sección “Días inhábiles” 
+
+El sistema mostrará la siguiente ventana, indicando: 
+
+●  Año 
+●  Mes 
+●  Día 
+●  Descripción 
+
+La pantalla permite realizar las siguientes acciones: 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 86 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  Seleccionar un año a mostrar: 
+
+●  Agregar un día inhábil: 
+●  Buscar un día inhábil por su nombre: 
+
+●  Editar un día inhábil 
+
+Agregar un día inhábil 
+
+1.  En la pantalla principal haz clic en el siguiente botón: 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Llena los datos del día y haz clic en “Guardar”. 
+
+Editor un día inhábil 
+
+1.  En la pantalla principal haz clic en el registro del día que deseas editar 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 87 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+El sistema desplegará la siguiente ventana: 
+
+2.  Edita los datos del día inhábil y da clic en “Guardar”.
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 88 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+III.  GLOSARIO DE TÉRMINOS 
+
+●  Acumulado  titular:  Función  que permite visualizar el total de justificantes justificados por el 
+
+titular por tipo de contrato (confianza u operativo) para cada empleado. 
+
+●  Bandeja de justificantes: Sección donde se visualizan, agregan o gestionan los justificantes 
+
+presentados por los empleados. 
+
+●  Cargar  al  SIARH:  Acción  de  enviar  la  información  de  incidencias  procesadas  al  Sistema 
+
+Integral de Recursos Humanos (SIARH V2.0). 
+
+●  Clave  de  empleado:  Código  único  asignado  a  cada  trabajador  del  Tribunal  para  su 
+
+identificación en el sistema. 
+
+●  Contraseña: Conjunto de caracteres que permite al usuario acceder al sistema. 
+●  Días económicos: Días otorgados a empleados sindicalizados, que pueden justificar faltas o 
+
+retardos sin afectaciones. 
+
+●  Días  inhábiles:  Fechas no laborables establecidas por el Tribunal de Justicia Administrativa 
+
+de la CDMX. 
+
+●  Empleado operativo sindicalizado: Personal con contrato de base y representación sindical. 
+●  Excepciones:  Registros  especiales  que  justifican  la  omisión  de  registros  en  el  sistema por 
+
+una temporalidad amplia por motivos institucionales o personales autorizados. 
+●  FONAC: Fondo de Ahorro Capitalizable de los Trabajadores al Servicio del Estado. 
+● 
+
+Incidencia:  Evento  registrado  por  asistencia  por  medio  de  los  dispositivos  biométricos 
+(retardo  leve,  retardo  grave,  omisión  de  entrada,  omisión  de  salida,  falta,  falta  por  retardo, 
+salida antes de tiempo). 
+
+●  Justificante:  Documento  que  respalda  o  explica  una  incidencia,  generalmente  en  formato 
+
+PDF. 
+
+●  Módulos:  Componentes  funcionales  del  sistema  que  agrupan  tareas  específicas  (por 
+
+ejemplo: incidencias, descuentos, justificantes). 
+
+●  Notas buenas: Puntos otorgados a empleados sin incidencias o con incidencias justificadas. 
+●  Período  quincenal:  Intervalo  de  15  días  laborales  utilizado  para  registrar  y  procesar 
+
+incidencias y asistencia. 
+
+●  Premio  de  puntualidad:  Beneficio  otorgados  a empleados sindicalizados que no presentan 
+
+incidencias durante el periodo evaluado o que están justificados en su totalidad. 
+
+●  RFC:  Registro  Federal  de  Contribuyentes.  Clave  alfanumérica  que  identifica  a  los 
+
+contribuyentes ante el SAT. 
+
+●  SAR: Sistema de Ahorro para el Retiro. 
+●  SIARH  (Sistema 
+
+Integral  de  Administración  de  Recursos  Humanos):  Plataforma 
+
+institucional donde se centraliza la información del personal del TJACDMX. 
+●  Usuario: Persona que utiliza el sistema con un perfil y credenciales específicas. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 89 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+●  VDIM: Vales del Día Internacional de la Mujer. 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE JUSTICIA ADMINISTRATIVA  
+DE LA CIUDAD DE MÉXICO 
+
+DIRECCIÓN GENERAL DE ADMINISTRACIÓN  
+
+DIRECCIÓN DE INFORMÁTICA 
+
+ Día 
+
+ Mes 
+
+   Año 
+
+ 24 
+
+ 06 
+
+ 2025 
+
+Pág. 90 de 90 
+
+MANUAL DE SISTEMA DE CONTROL DE ASISTENCIA TJACDMX 
+
+VERSIÓN: 001 
+
+IV.  CONTROL DE CAMBIOS 
+
+Elaboró 
+
+Tipo de Cambio 
+(Modificación, adición o 
+supresión) 
+
+Fecha 
+
+Esthefania Vidal Solares 
+
+Creación 
+
+24 / 06 / 2025 
+
+IDENTIFICACIÓN 
+
+TJACDMX/MANUAL_PORTA
+L_EMPLEADO_TJACDMX 
+
+ELABORÓ 
+ESTHEFANIA VIDAL SOLARES 
+ANALISTA ADMINISTRATIVO 
+
+LUIS ENRIQUE MOULINIE RUÏZ 
+
+REVISÓ 
+
+EDUARDO MANUEL ZEPEDA PÉREZ 
+SUBDIRECTOR DE DESARROLLO 
+DE SISTEMAS  
+
+AUTORIZÓ 
+MTRO. MISAEL NODIMAX TEJEDA 
+GARCÍA 
+DIRECTOR DE INFORMÁTICA 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
